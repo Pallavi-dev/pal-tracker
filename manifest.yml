@@ -9,4 +9,4 @@ applications:
       JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
       spring.profiles.active: cloud
     service:
-     - mysql-pallavi
+      - mysql-pallavi
