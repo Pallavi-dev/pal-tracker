@@ -5,10 +5,10 @@ applications:
       JBP_CONFIG_OPEN_JDK_JRE: "{ jre: { version: 11.+ } }"
       WELCOME_MESSAGE: "Hello from the review environment"
       spring.profiles.active: cloud
-    name: pal-tracker
+    name: pal-tracker-rai
     path: build/libs/pal-tracker.jar
     routes:
       -
         route: pal-tracker-rai.apps.pas-useast1.gcp-wipro.com
-    service:
+    services:
       - mysql-pallavi
